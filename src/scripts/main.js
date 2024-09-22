@@ -3,7 +3,7 @@
 
 AOS.init();
 
-const eventDate = new Date("Dec 14, 2024 09:00:00");
+const eventDate = new Date("Sep 14, 2024 09:00:00");
 const eventTimeStamp = eventDate.getTime();
 
 const countTheTime = setInterval(function() {
@@ -25,6 +25,6 @@ const countTheTime = setInterval(function() {
 
     if (timeUntilTheEvent < 0) {
         clearInterval(countTheTime);
-        document.getElementById('countdown').innerHTML = 'já acabou :('
+        document.getElementById('countdown').innerHTML = 'infelizmente já acabou. Até a próxima!'
     }
 }, 1000);
