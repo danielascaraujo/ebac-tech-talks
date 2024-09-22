@@ -3,7 +3,7 @@
 
 AOS.init();
 
-const eventDate = new Date("Sep 14, 2024 09:00:00");
+const eventDate = new Date("Dec 14, 2024 09:00:00");
 const eventTimeStamp = eventDate.getTime();
 
 const countTheTime = setInterval(function() {
